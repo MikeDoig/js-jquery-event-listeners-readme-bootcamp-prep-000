@@ -9,7 +9,7 @@ function frameIt() {
   });
 }
 function submitIt() {
-  
+  $('submit')
   alert ('Your form is going to be submitted now.');
 }
 function pressIt() {

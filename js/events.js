@@ -14,7 +14,7 @@ function submitIt() {
 function pressIt() {
  $('#typing').on('keydown', function (e){
    if (e.key == 'g') {
-   alert("You pressed 'g'!");
+   alert('You pressed the G key');
 }
 });
 }

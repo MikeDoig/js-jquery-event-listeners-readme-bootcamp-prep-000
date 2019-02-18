@@ -12,7 +12,8 @@ function submitIt() {
   
 }
 function pressIt() {
-  
+ $('p').on('click', function (){
+  alert('Hey!');
 }
 
 $(document).ready(function(){

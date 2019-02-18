@@ -1,4 +1,16 @@
-//define functions here
+function getIt() {
+  
+  alert('Hey!');
+}
+function frameIt() {
+  
+}
+function submitIt() {
+  
+}
+function pressIt() {
+  
+}
 
 $(document).ready(function(){
 

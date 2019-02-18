@@ -12,7 +12,7 @@ function submitIt() {
   
 }
 function pressIt() {
- $('p').on('click', function (){
+ $('input').on('click', function (){
   alert('Hey!');
 }
 

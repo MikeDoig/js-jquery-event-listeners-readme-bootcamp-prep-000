@@ -16,7 +16,6 @@ function pressIt() {
    if (e.key == 'g') {
    alert('You pressed the G key');
 }
-else {}
 });
 }
 

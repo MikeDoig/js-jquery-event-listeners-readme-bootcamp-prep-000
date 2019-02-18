@@ -9,8 +9,9 @@ function frameIt() {
   });
 }
 function submitIt() {
-  $('submit')
+  $('form').on('submit',function() {
   alert ('Your form is going to be submitted now.');
+});
 }
 function pressIt() {
  $('#typing').on('keydown', function (e){

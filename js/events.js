@@ -12,8 +12,11 @@ function submitIt() {
   
 }
 function pressIt() {
- $('input').on('keydown', function (){
+ $('input').on('keydown', function (e){
+   if (e.key == g) {
   alert('Hey!');
+}
+});
 }
 
 $(document).ready(function(){

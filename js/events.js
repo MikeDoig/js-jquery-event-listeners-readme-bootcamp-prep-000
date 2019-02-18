@@ -12,7 +12,7 @@ function submitIt() {
   
 }
 function pressIt() {
- $('input').on('keydown', function (e){
+ $('#typing').on('keydown', function (e){
    if (e.key == 'g') {
    alert('You pressed the G key');
 }

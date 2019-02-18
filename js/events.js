@@ -13,7 +13,7 @@ function submitIt() {
 }
 function pressIt() {
  $('#typing').on('keydown', function (e){
-   if (e.which == 71) {
+   if (e.which == 103) {
    alert('You pressed the G key');
 }
 });
